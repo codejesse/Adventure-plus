@@ -7,15 +7,15 @@ const Main = () => {
         <Wrapper>
             <HeaderWrapper>
                 <HeaderText>Live your <Span>Adventure</Span> with Todd</HeaderText>
-                <DescPara>Todd embarks on an awesome adventure of his life with his pet monkey</DescPara>
+                <DescPara>Todd embarks on an awesome adventure of his life with his pet monkey and today enjoy the splendour of this world and what it offers</DescPara>
                 <HeaderPara>Coming soon | Friday, November 3rd, 14:20</HeaderPara>
                 <ButtonWrapper>
-                    <HeaderPlayBtn>Watch now</HeaderPlayBtn>
+                    <HeaderPlayBtn>Start Watching</HeaderPlayBtn>
                     <WatchlistBtn></WatchlistBtn>
                 </ButtonWrapper>
-                <Channels />
+                {/* <Channels /> */}
             </HeaderWrapper>
-            <VideoTray />
+            {/* <VideoTray /> */}
         </Wrapper>
     );
 }
